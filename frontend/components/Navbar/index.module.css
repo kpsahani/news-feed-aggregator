@@ -1,0 +1,53 @@
+.ex{
+    color: #FFC5C5;
+    color: #FFEBD8;
+    color: #C7DCA7;
+    color: #89B9AD;
+}
+.header{
+    border-bottom: 1px solid #eaebed;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1{
+    color: #000000;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: .05em;
+}
+
+.menus ul{
+    display: inline-flex;
+}
+
+.menus ul li{
+    padding: 0px 20px;
+    list-style: none;
+}
+
+.menus ul li button{
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: monospace;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #000000;
+    border: none;
+}
+
+.login{
+    background-color: #FFC5C5;
+}
+
+.Signup{
+    background-color: #C7DCA7;
+}

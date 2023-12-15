@@ -1,0 +1,115 @@
+.main {
+  min-height: 100vh;
+}
+
+.feed-board{
+  padding: 40px 0;
+}
+
+.feed-search-wrapper{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.feed-search-bar{
+  max-width: 708px;
+}
+
+.searchInput,.searchInput:focus-visible{
+  width: 100%;
+  padding: 12px 10px;
+  border-radius: 16px;
+  border: 1px solid #000;
+  font-size: 18px;
+  color: #000;
+}
+
+
+.feed-options-wrapper{
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.feed-filters ul{
+  display: flex;
+}
+
+.feed-filters ul li select{
+  padding: 10px;
+  border-radius: 10px;
+  min-width: 160px;
+  max-width: 160px;
+}
+
+.feed-filters ul li{
+  list-style: none;
+  display: grid;
+  width: 180px;
+  padding: 0 10px;
+}
+
+.feed-personalized-setting button{
+  display: inline-flex;
+  padding: 10px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.feed-list-wrapper{
+  padding: 12px;
+}
+
+.feed-list-card{
+
+}
+
+.feed-list-item{
+  border: 1px solid #fefe;
+  border-radius: 12px;
+  background-color: #c7dca7;
+  margin-bottom: 20px;
+}
+
+.feed-list-Box{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 15px 15px;
+  border: none;
+  border-radius: 12px;
+}
+
+.card-left{
+
+}
+
+.card-right{
+  margin-left: 40px;
+  line-height: 22px;
+}
+
+.card-right h3{
+  
+}
+
+.card-right p{
+  font-size: 15px;
+  color: black;
+}
+
+.news-utils ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 30px;
+  font-size: 14px;
+  font-family: monospace;
+
+}
+
+.news-utils ul li{
+  list-style: none;
+}

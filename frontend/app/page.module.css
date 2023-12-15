@@ -1,0 +1,114 @@
+.main {
+  min-height: 100vh;
+}
+
+.feed-board{
+  padding: 40px 0;
+}
+
+.feed-search-wrapper{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.feed-tab-wrapper{
+
+}
+
+.feed-tab ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.feed-tab ul li{
+  list-style: none;
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: burlywood;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.feed-search-bar{
+  max-width: 708px;
+}
+
+.searchInput,.searchInput:focus-visible{
+  width: 100%;
+  padding: 12px 10px;
+  border-radius: 16px;
+  border: 1px solid #000;
+  font-size: 18px;
+  color: #000;
+}
+
+
+.feed-options-wrapper{
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.feed-filters ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.feed-filters ul li select{
+  padding: 10px;
+  border-radius: 10px;
+  min-width: 160px;
+  max-width: 160px;
+}
+
+.feed-filters ul li{
+  list-style: none;
+  display: grid;
+  width: 180px;
+  padding: 0 10px;
+}
+
+.feed-personalized-setting button{
+  display: inline-flex;
+  padding: 10px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+
+
+
+@media(max-width: 767px){
+
+  .menus ul li{
+    padding: 0px 8px;
+  }
+  .menus ul li button {
+    padding: 12px 12px;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .feed-options-wrapper{
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .feed-filters{
+    margin-bottom: 20px;
+  }
+
+  .feed-filters ul{
+    justify-content: center;
+  }
+
+  .feed-list-Box, .news-utils ul{
+    flex-wrap: wrap;
+  }
+
+  .card-right{
+    margin-left: 0px;
+  }
+}
